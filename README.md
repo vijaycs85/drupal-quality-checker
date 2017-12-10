@@ -27,3 +27,15 @@ That's it. Now, all tasks (listed below) run on every `git commit`.
 6. [PHP Copy/Paste Detector (CPD)](https://github.com/sebastianbergmann/phpcpd)
 
 Long list of additional checks/validators available [here](https://github.com/phpro/grumphp/blob/master/doc/tasks.md#tasks-1).
+
+## Sample
+
+### Pass
+![drupal-quality-checker-pass](https://user-images.githubusercontent.com/1220029/33808392-62b90710-dddd-11e7-9d0e-08f82e6e85b1.png)
+
+### Fail
+![drupal-quality-checker-fail](https://user-images.githubusercontent.com/1220029/33808391-62a4daec-dddd-11e7-8cf5-9c6b37f89893.png)
+
+
+## Demo
+Implemented in [Modal Configuration](https://github.com/vijaycs85/modal_config) module.
