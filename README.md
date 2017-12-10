@@ -10,7 +10,7 @@ Provides set of libraries to easily setup code quality checks based on [GrumPHP]
 
 ## Install
 
-1. Add `vijaycs85/drupal-quality-checker` to `composer.json` or just `composer require --dev vijaycs85/drupal-quality-checker`
+1. Add `vijaycs85/drupal-quality-checker` to `composer.json` (like [here](https://github.com/vijaycs85/modal_config/blob/8.x-1.x/composer.json#L21)) or just `composer require --dev vijaycs85/drupal-quality-checker`
 2. Replace `grumphp.yml` in project's root directory (not Drupal root directory) with `vendor/vijaycs85/drupal-quality-checker/grumphp.yml.dist`
 
 That's it. Now, all tasks (listed below) run on every `git commit`.
