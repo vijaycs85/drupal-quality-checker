@@ -14,4 +14,3 @@ parameters:
       directory: './src'
     phpcs:
       standard: Drupal
-    phpunit: ~
