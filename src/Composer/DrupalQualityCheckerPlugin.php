@@ -4,11 +4,11 @@ namespace DrupalQualityChecker\Composer;
 
 use Composer\EventDispatcher\EventSubscriberInterface;
 use Composer\Plugin\PluginInterface;
-use GrumPHP\Composer\GrumPHPPlugin as GrumPHPPluginDefault;
+use DrupalQualityChecker\Console\Command\ConfigureDrupalCommand;
+use GrumPHP\Composer\GrumPHPPlugin;
 use Composer\Script\Event;
-use DrupalQualityChecker\Console\Command\ConfigureCommand;
 
-class GrumPHPPlugin extends GrumPHPPluginDefault implements PluginInterface, EventSubscriberInterface
+class DrupalQualityCheckerPlugin extends GrumPHPPlugin implements PluginInterface, EventSubscriberInterface
 {
     const PACKAGE_NAME = 'vijaycs85/drupal-quality-checker';
 
@@ -16,7 +16,7 @@ class GrumPHPPlugin extends GrumPHPPluginDefault implements PluginInterface, Eve
     {
         parent::runScheduledTasks($event);
         if ($this->initScheduled) {
-            $this->runGrumPhpCommand(ConfigureCommand::COMMAND_NAME);
+            $this->runGrumPhpCommand(ConfigureDrupalCommand::COMMAND_NAME);
         }
     }
 
