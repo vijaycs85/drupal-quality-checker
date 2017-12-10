@@ -1,7 +1,4 @@
 parameters:
-  ascii:
-    failed: resources/ascii/grumpy.txt
-    succeeded: resources/ascii/happy.txt
   git_dir: .
   bin_dir: vendor/bin
   tasks:
