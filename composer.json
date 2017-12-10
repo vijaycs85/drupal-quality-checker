@@ -1,5 +1,5 @@
 {
-  "name": "drupal/drupal-quality-checker",
+  "name": "vijaycs85/drupal-quality-checker",
   "description": "Setups code quality checking tools for Drupal project.",
   "type": "project",
   "homepage": "https://github.com/vijaycs85/drupal-quality-checker",
