@@ -16,7 +16,7 @@ class DrupalConfig
 
         $vendorDir = $event->getComposer()->getConfig()->get('vendor-dir');
         $config_source = getcwd() . '/grumphp.yml.dist';
-        $config_dest =  $vendorDir . '/../grumphp.yml';
+        $config_dest =  $vendorDir . '/grumphp.yml.dist';
         $filesystem->copy(
           self::noramlizePath($config_source),
           self::noramlizePath($config_dest)
