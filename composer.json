@@ -1,0 +1,25 @@
+{
+  "name": "drupal/drupal-quality-checker",
+  "description": "Setups code quality checking tools for Drupal project.",
+  "type": "project",
+  "homepage": "https://github.com/vijaycs85/drupal-quality-checker",
+  "authors": [
+    {
+      "name": "Vijaya Chandran Mani",
+      "homepage": "https://www.drupal.org/u/vijaycs85",
+      "role": "Maintainer"
+    }
+  ],
+  "require": {
+    "phpro/grumphp": "^0.11.6",
+    "composer/composer": "~1.0",
+    "drupal/coder": "^8.2.12",
+    "dealerdirect/phpcodesniffer-composer-installer": "*",
+    "jakub-onderka/php-parallel-lint": "^0.9.2"
+  },
+  "support": {
+    "issues": "https://github.com/vijaycs85/drupal-quality-checker/issues",
+    "source": "https://github.com/vijaycs85/drupal-quality-checker"
+  },
+  "license": "GPL-2.0+"
+}

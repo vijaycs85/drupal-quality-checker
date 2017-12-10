@@ -1,0 +1,14 @@
+parameters:
+  git_dir: .
+  bin_dir: vendor/bin
+  tasks:
+    phplint: ~
+    yamllint: ~
+    composer: ~
+    jsonlint: ~
+    phpcpd: ~
+    phpcpd:
+      directory: './src'
+    phpcs:
+      standard: Drupal
+    phpunit: ~
