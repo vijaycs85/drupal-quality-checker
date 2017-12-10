@@ -16,7 +16,6 @@
     "composer/composer": "~1.0",
     "drupal/coder": "^8.2.12",
     "sebastian/phpcpd": "^3.0",
-    "phpunit/phpunit": "^5.0",
     "dealerdirect/phpcodesniffer-composer-installer": "*",
     "jakub-onderka/php-parallel-lint": "^0.9.2"
   },
