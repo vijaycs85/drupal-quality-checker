@@ -1,7 +1,7 @@
 parameters:
   ascii:
-    failed: .grumphp/grumpy.txt
-    succeeded: .grumphp/happy.txt
+    failed: resources/ascii/grumpy.txt
+    succeeded: resources/ascii/happy.txt
   git_dir: .
   bin_dir: vendor/bin
   tasks:
