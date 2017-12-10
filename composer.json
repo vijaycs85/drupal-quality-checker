@@ -12,6 +12,7 @@
     }
   ],
   "require": {
+    "composer-plugin-api": "~1.0",
     "phpro/grumphp": "^0.11.6",
     "composer/composer": "~1.0",
     "drupal/coder": "^8.2.12",
