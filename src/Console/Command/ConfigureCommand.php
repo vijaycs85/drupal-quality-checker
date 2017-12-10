@@ -16,12 +16,10 @@ class ConfigureCommand extends ConfigureCommandDefault
      */
     public function __construct(GrumPHP $config, Filesystem $filesystem, Repository $repository)
     {
-        print_r($config);exit;
         parent::__construct($config, $filesystem, $repository);
-
-        $this->config = $config;
-        $this->filesystem = $filesystem;
-        $this->repository = $repository;
+        $fp = fopen('/tmp/simpletest.log', 'a+');
+        fwrite($fp, print_r($config, TRUE) . "\n");
+        fclose($fp);
     }
 
 }
