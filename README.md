@@ -20,7 +20,7 @@ That's it. Now, all tasks (listed below) run on every `git commit`.
 ## Features
 
 1. [PHPCS](https://github.com/squizlabs/PHP_CodeSniffer) with Drupal standard.
-2. [PHPLink](http://www.icosaedro.it/phplint/)
+2. [PHPLint](http://www.icosaedro.it/phplint/)
 3. [YAML Lint](http://www.yamllint.com/)
 4. [Composer](https://github.com/composer/composer)
 5. [JSONLint](https://jsonlint.com/)
