@@ -9,7 +9,6 @@ parameters:
     yamllint: ~
     composer: ~
     jsonlint: ~
-    phpcpd: ~
     phpcpd:
       directory: './src'
     phpcs:
