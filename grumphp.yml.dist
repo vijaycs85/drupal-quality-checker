@@ -14,3 +14,21 @@ parameters:
       directory: './src'
     phpcs:
       standard: Drupal
+      ignore_patterns:
+        - .github
+        - .gitlab
+        - bower_components
+        - node_modules
+        - vendor
+      triggered_by:
+        - php
+        - module
+        - inc
+        - install
+        - test
+        - profile
+        - theme
+        - css
+        - info
+        - txt
+        - md
