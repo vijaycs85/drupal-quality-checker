@@ -8,6 +8,7 @@ parameters:
     phplint: ~
     yamllint: ~
     composer: ~
+    composer_normalize: ~
     jsonlint: ~
     phpcpd:
       directory: './src'
