@@ -3,7 +3,7 @@
 
 ## Overview
 
-Provides set of libraries to easily setup code quality checks based on [GrumPHP](https://github.com/phpro/grumphp) for Drupal module/theme/profile.
+Provides set of libraries to easily setup code quality checks based on [GrumPHP](https://github.com/phpro/grumphp) for Drupal module/theme/profile. Check out this [article](https://www.lullabot.com/articles/how-enforce-drupal-coding-standards-git) from [Lullabot](https://www.lullabot.com) for more details.
 
 >*Note:* This library is aimed to help contributed/custom Drupal module/theme/profile hosted in individual git repository.
 
