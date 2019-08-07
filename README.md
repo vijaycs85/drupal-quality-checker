@@ -3,7 +3,7 @@
 
 ## Overview
 
-Provides set of libraries to easily setup code quality checks based on [GrumPHP](https://github.com/phpro/grumphp) for Drupal module/theme/profile.
+Provides set of libraries to easily setup code quality checks based on [GrumPHP](https://github.com/phpro/grumphp) for Drupal module/theme/profile. Check out this [article](https://www.lullabot.com/articles/how-enforce-drupal-coding-standards-git) from [Lullabot](https://www.lullabot.com) for more details.
 
 >*Note:* This library is aimed to help contributed/custom Drupal module/theme/profile hosted in individual git repository.
 
@@ -23,8 +23,9 @@ That's it. Now, all tasks (listed below) run on every `git commit`.
 2. [PHPLint](http://www.icosaedro.it/phplint/)
 3. [YAML Lint](http://www.yamllint.com/)
 4. [Composer](https://github.com/composer/composer)
-5. [JSONLint](https://jsonlint.com/)
-6. [PHP Copy/Paste Detector (CPD)](https://github.com/sebastianbergmann/phpcpd)
+5. [Composer Normalize](https://github.com/localheinz/composer-normalize)
+6. [JSONLint](https://jsonlint.com/)
+7. [PHP Copy/Paste Detector (CPD)](https://github.com/sebastianbergmann/phpcpd)
 
 Long list of additional checks/validators available [here](https://github.com/phpro/grumphp/blob/master/doc/tasks.md#tasks-1).
 
