@@ -12,6 +12,8 @@ parameters:
     jsonlint: ~
     phpcpd:
       directory: './src'
+    phpstan:
+      configuration: vendor/mglaman/drupal-check/phpstan/rules_and_deprecations_testing.neon
     phpcs:
       standard: Drupal
       ignore_patterns:
