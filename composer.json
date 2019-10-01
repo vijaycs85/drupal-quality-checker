@@ -1,8 +1,8 @@
 {
-  "name": "vijaycs85/drupal-quality-checker",
+  "name": "focusrite-novation/drupal-quality-checker",
   "type": "project",
-  "description": "Setups code quality checking tools for Drupal project.",
-  "homepage": "https://github.com/vijaycs85/drupal-quality-checker",
+  "description": "Sets up code quality checking tools for Drupal project.",
+  "homepage": "https://github.com/Focusrite-Novation/drupal-quality-checker/",
   "license": "MIT",
   "authors": [
     {
@@ -17,7 +17,7 @@
     }
   ],
   "require": {
-    "dealerdirect/phpcodesniffer-composer-installer": "*",
+    "dealerdirect/phpcodesniffer-composer-installer": "^0.5",
     "drupal/coder": "^8.2.12",
     "jakub-onderka/php-parallel-lint": "^1.0",
     "localheinz/composer-normalize": "^1.2",
@@ -25,7 +25,7 @@
     "sebastian/phpcpd": "^3.0"
   },
   "support": {
-    "issues": "https://github.com/vijaycs85/drupal-quality-checker/issues",
-    "source": "https://github.com/vijaycs85/drupal-quality-checker"
+    "issues": "https://github.com/Focusrite-Novation/drupal-quality-checker/issues",
+    "source": "https://github.com/Focusrite-Novation/drupal-quality-checker"
   }
 }
