@@ -9,15 +9,19 @@
       "name": "Vijaya Chandran Mani",
       "homepage": "https://www.drupal.org/u/vijaycs85",
       "role": "Maintainer"
+    },
+    {
+      "name": "Sophie Shanahan-Kluth",
+      "homepage": "https://github.com/Tawreh",
+      "role": "Contributor"
     }
   ],
   "require": {
-    "composer/composer": "~1.0",
     "dealerdirect/phpcodesniffer-composer-installer": "*",
     "drupal/coder": "^8.2.12",
     "jakub-onderka/php-parallel-lint": "^1.0",
     "localheinz/composer-normalize": "^1.2",
-    "phpro/grumphp": "^0.15",
+    "phpro/grumphp": "^0.16",
     "sebastian/phpcpd": "^3.0"
   },
   "support": {
