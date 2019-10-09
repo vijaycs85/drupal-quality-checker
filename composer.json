@@ -18,7 +18,7 @@
     "jakub-onderka/php-parallel-lint": "^1.0",
     "localheinz/composer-normalize": "^1.2",
     "phpro/grumphp": "^0.16",
-    "sebastian/phpcpd": "^4.0"
+    "sebastian/phpcpd": "^3.0"
   },
   "support": {
     "issues": "https://github.com/vijaycs85/drupal-quality-checker/issues",
