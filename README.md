@@ -26,6 +26,7 @@ That's it. Now, all tasks (listed below) run on every `git commit`.
 5. [Composer Normalize](https://github.com/localheinz/composer-normalize)
 6. [JSONLint](https://jsonlint.com/)
 7. [PHP Copy/Paste Detector (CPD)](https://github.com/sebastianbergmann/phpcpd)
+8. [drupal-check](https://github.com/mglaman/drupal-check)
 
 Long list of additional checks/validators available [here](https://github.com/phpro/grumphp/blob/master/doc/tasks.md#tasks-1).
 
