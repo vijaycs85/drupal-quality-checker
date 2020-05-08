@@ -3,9 +3,9 @@
 
 ## Overview
 
-Provides set of libraries to easily setup code quality checks based on [GrumPHP](https://github.com/phpro/grumphp) for Drupal module/theme/profile. Check out this [article](https://www.lullabot.com/articles/how-enforce-drupal-coding-standards-git) from [Lullabot](https://www.lullabot.com) for more details.
+Provides set of libraries to easily setup code quality checks based on [GrumPHP](https://github.com/phpro/grumphp) for Drupal module/theme/profile. Check out this [Lullabot article](https://www.lullabot.com/articles/how-enforce-drupal-coding-standards-git) for more details.
 
->*Note:* This library is aimed to help contributed/custom Drupal module/theme/profile hosted in individual git repository.
+>*Note:* This library aim to help contributed/custom Drupal module/theme/profile hosted in individual git repository.
 
 
 ## Install
@@ -32,11 +32,10 @@ Long list of additional checks/validators available [here](https://github.com/ph
 ## Sample
 
 ### Pass
-![drupal-quality-checker-pass](https://user-images.githubusercontent.com/1220029/33808392-62b90710-dddd-11e7-9d0e-08f82e6e85b1.png)
+![drupal-quality-checker-pass](./docs/images/drupal-quality-checker-pass.png)
 
 ### Fail
-![drupal-quality-checker-fail](https://user-images.githubusercontent.com/1220029/33808391-62a4daec-dddd-11e7-8cf5-9c6b37f89893.png)
-
+![drupal-quality-checker-fail](./docs/images/drupal-quality-checker-fail.png)
 
 ## Demo
 Implemented in [Modal Configuration](https://github.com/vijaycs85/modal_config) module.
