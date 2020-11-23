@@ -17,11 +17,11 @@
     }
   ],
   "require": {
-    "dealerdirect/phpcodesniffer-composer-installer": "^0.5",
+    "dealerdirect/phpcodesniffer-composer-installer": "^0.7.0",
     "drupal/coder": "^8.2.12",
     "jakub-onderka/php-parallel-lint": "^1.0",
-    "localheinz/composer-normalize": "^1.2",
-    "phpro/grumphp": "^0.16",
+    "localheinz/composer-normalize": "^2.11",
+    "phpro/grumphp": "^1.1",
     "sebastian/phpcpd": "^3.0"
   },
   "support": {
