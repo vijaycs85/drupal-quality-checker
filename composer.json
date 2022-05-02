@@ -17,7 +17,7 @@
     "ergebnis/composer-normalize": "*",
     "php-parallel-lint/php-parallel-lint": "*",
     "phpro/grumphp": ">=1.5.1",
-    "sebastian/phpcpd": ">=5.0.1"
+    "sebastian/phpcpd": "*"
   },
   "support": {
     "issues": "https://github.com/vijaycs85/drupal-quality-checker/issues",
