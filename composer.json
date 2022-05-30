@@ -16,11 +16,18 @@
     "drupal/coder": ">=8.3",
     "ergebnis/composer-normalize": ">=2.5",
     "php-parallel-lint/php-parallel-lint": ">=1.0",
-    "phpro/grumphp": "<=1.5",
+    "phpro/grumphp": "*",
     "sebastian/phpcpd": ">=4.0"
   },
   "support": {
     "issues": "https://github.com/vijaycs85/drupal-quality-checker/issues",
     "source": "https://github.com/vijaycs85/drupal-quality-checker"
+  },
+  "config": {
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true,
+      "ergebnis/composer-normalize": true,
+      "phpro/grumphp": true
+    }
   }
 }
