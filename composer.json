@@ -15,7 +15,7 @@
     "dealerdirect/phpcodesniffer-composer-installer": "*",
     "drupal/coder": ">=8.3",
     "ergebnis/composer-normalize": "*",
-    "php-parallel-lint/php-parallel-lint": ">=1.0",
+    "php-parallel-lint/php-parallel-lint": "*",
     "phpro/grumphp": "*",
     "sebastian/phpcpd": "*"
   },
