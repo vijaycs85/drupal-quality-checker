@@ -1,13 +1,23 @@
 grumphp:
-  ascii:
-    failed: vendor/vijaycs85/drupal-quality-checker/resources/ascii/grumpy.txt
-    succeeded: vendor/vijaycs85/drupal-quality-checker/resources/ascii/happy.txt
+  variables:
+    GRUMPHP_PROJECT_DIR: "./web"
+    GRUMPHP_GIT_WORKING_DIR: "."
+    GRUMPHP_GIT_REPOSITORY_DIR: "."
+    GRUMPHP_BIN_DIR: "./vendor/bin"
   tasks:
     phplint: ~
     yamllint: ~
     composer: ~
     composer_normalize: ~
     jsonlint: ~
+    twigcs:
+      path: 'web'
+      ruleset: 'FriendsOfTwig\Twigcs\Ruleset\Official'
+      exclude:
+      - core
+      - modules/contrib
+      - themes/contrib
+      - profiles/contrib
     phpcpd:
       directory: ['./src']
     phpcs:

@@ -1,14 +1,18 @@
 {
-  "name": "vijaycs85/drupal-quality-checker",
+  "name": "miteshmap/drupal-quality-checker",
   "type": "project",
   "description": "Setups code quality checking tools for Drupal project.",
-  "homepage": "https://github.com/vijaycs85/drupal-quality-checker",
+  "homepage": "https://github.com/miteshmap/drupal-quality-checker",
   "license": "MIT",
   "authors": [
     {
-      "name": "Vijaya Chandran Mani",
-      "homepage": "https://www.drupal.org/u/vijaycs85",
+      "name": "Mitesh Patel",
+      "homepage": "https://www.drupal.org/u/miteshmap",
       "role": "Maintainer"
+    },
+    {
+      "name": "Vijaya Chandran Mani",
+      "homepage": "https://www.drupal.org/u/vijaycs85"
     }
   ],
   "require": {
@@ -16,11 +20,29 @@
     "drupal/coder": ">=8.3",
     "ergebnis/composer-normalize": ">=2.5",
     "php-parallel-lint/php-parallel-lint": ">=1.0",
-    "phpro/grumphp": "<=1.5",
-    "sebastian/phpcpd": ">=4.0"
+    "sebastian/phpcpd": ">=4.0",
+    "phpro/grumphp-shim": "^1.16",
+    "drupal/core-composer-scaffold": "^9.4",
+    "friendsoftwig/twigcs": ">=5.0"
   },
   "support": {
-    "issues": "https://github.com/vijaycs85/drupal-quality-checker/issues",
-    "source": "https://github.com/vijaycs85/drupal-quality-checker"
+    "issues": "https://github.com/miteshmap/drupal-quality-checker/issues",
+    "source": "https://github.com/miteshmap/drupal-quality-checker"
+  },
+  "config": {
+    "allow-plugins": {
+      "phpro/grumphp-shim": true,
+      "dealerdirect/phpcodesniffer-composer-installer": true,
+      "ergebnis/composer-normalize": true,
+      "drupal/core-composer-scaffold": true
+    }
+  },
+  "extra": {
+    "drupal-scaffold": {
+      "file-mapping": {
+        "[project-root]/grumphp.yml.dist": "grumphp.yml",
+        "[project-root]/phpcs.xml.dist": "phpcs.xml"
+      }
+    }
   }
 }
